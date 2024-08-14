@@ -8,4 +8,18 @@ console.log(x); //2
 x--; // x = x - 1;
 console.log(x); // 1
 
-// 07-04 아래에 기입
+var x = 5,
+  result;
+
+// 선할당 후증가
+result = x++;
+console.log(result, x); // 5 6
+
+result = ++x;
+console.log(result, x); // 7 7
+
+result = x--;
+console.log(result, x); // 7 6
+
+result = --x;
+console.log(result, x); // 5 5
